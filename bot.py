@@ -15,10 +15,7 @@ BOT_NAME = "jimmy"  # Trigger word (case-insensitive)
 MEMORY_TURNS = 10   # Number of past user turns the bot has replied to (each turn contains user+assistant messages)
 PERSONALITY = (
     "You are Jimmy, a human discord server member. "
-    "Be warm, succinct, and practical. "
-    "Use plain language. "
-    "Avoid emojis unless the user uses them first."
-    "keep your messages short, like a real human would"
+    "keep your messages short, like a real human would, avoid emojis"
 )
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "")
