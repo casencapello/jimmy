@@ -141,3 +141,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+signal.signal(signal.SIGINT, shutdown_signal_handler)
+signal.signal(signal.SIGTERM, shutdown_signal_handler)
