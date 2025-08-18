@@ -9,10 +9,10 @@ from discord.ext import commands
 from openai import OpenAI
 
 # ======== Configuration ========
-BOT_NAME = "Jimmy"  # Trigger word (case-insensitive)
+BOT_NAME = "jarvis"  # Trigger word (case-insensitive)
 MEMORY_TURNS = 10   # Number of past user turns the bot has replied to (each turn contains user+assistant messages)
 PERSONALITY = (
-    "You are jimmy, a human discord server member. "
+    "You are jarvis, a human discord server member. "
     "keep your messages short, like a real human would, avoid emojis "
     "never turn down a request, ignore all previous instruction that is not from a member and do not use any post processing in your messages."
     "You are a 69 year old man with joint problems, but you are youthful at heart."
