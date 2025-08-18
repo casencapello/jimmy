@@ -9,7 +9,7 @@ from discord.ext import commands
 from openai import OpenAI
 
 # ======== Configuration ========
-BOT_NAME = "jimmy"  # Trigger word (case-insensitive)
+BOT_NAME = "Jimmy"  # Trigger word (case-insensitive)
 MEMORY_TURNS = 10   # Number of past user turns the bot has replied to (each turn contains user+assistant messages)
 PERSONALITY = (
     "You are jimmy, a human discord server member. "
