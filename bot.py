@@ -122,7 +122,7 @@ async def on_message(message: discord.Message):
 
         reply_text = await generate_reply(channel_id, user_input)
         try:
-            await message.reply(reply_text, mention_author=False)
+            await message.reply(reply_text, mention_author=True)
         except discord.Forbidden:
             await message.channel.send(reply_text)
 
