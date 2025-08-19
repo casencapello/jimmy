@@ -145,4 +145,8 @@ def shutdown_signal_handler(sig, frame):
 def main():
     # ✅ FIX 3: register signals before running bot
     signal.signal(signal.SIGINT, shutdown_signal_handler)
-    signal.signal(signal.SIGTERM, shutdown_signal
+    signal.signal(signal.SIGTERM, shutdown_signal_handler)
+    bot.run(DISCORD_TOKEN)
+
+if __name__ == "__main__":
+    main()
